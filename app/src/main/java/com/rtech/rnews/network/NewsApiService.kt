@@ -12,7 +12,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 private const val BASE_URL = "https://newsapi.org/"
-private const val API_KEY="908462ab75da43ab8313c45291cbc55d"
+private const val API_KEY="APIKEY"
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
